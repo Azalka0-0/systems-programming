@@ -1,9 +1,9 @@
-#include <windows.h>
 #include <stdio.h>
+#include <unistd.h>
 
 int main(void) {
-    DWORD pid = GetCurrentProcessId();
-    printf("agent v0, pid=%lu\n", pid);
+    pid_t pid = getpid();
+    printf("agent v0, pid=%d\n", (int)pid);
     printf("Press Enter to exit\n");
     getchar();
     return 0;
