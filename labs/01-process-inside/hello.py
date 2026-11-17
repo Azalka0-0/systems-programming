@@ -1,6 +1,5 @@
-import ctypes
+import ctypes, ctypes.util
 
-k32 = ctypes.windll.kernel32
-k32.GetCurrentProcessId.restype = ctypes.c_ulong
-print("agent v0 (python), pid=", k32.GetCurrentProcessId())
-input("Press Enter to exit")
+libc = ctypes.CDLL(ctypes.util.find_library("c"))
+libc.getpid.restype = ctypes.c_int
+print("agent v0 (python), pid=", libc.getpid())
