@@ -1,7 +1,9 @@
 # ЛР 7. Потоки Python и GIL
 
 Система: macOS (Apple Silicon, aarch64)
+
 Ядер (логических процессоров): 10
+
 Версии Python (обычный и без GIL): Python 3.14.10 (обычный), Python 3.14.10 (3.14t, без GIL)
 
 ## Python с GIL
