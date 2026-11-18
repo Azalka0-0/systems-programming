@@ -21,6 +21,7 @@
 | Работа | Что сделано |
 |---|---|
 | [`labs/01-process-inside`](labs/01-process-inside/README.md) | своя программа в мониторе процессов: номер, память, дескрипторы, библиотеки |
+| [`labs/01-process-inside`](homework/warehouse-documents) | своя программа для обработки документов |
 
 ## Структура
 
