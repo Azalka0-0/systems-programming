@@ -5,4 +5,7 @@
 
 | Файл | Что в нём |
 |---|---|
-| — | пока пусто |
+| core.h | структура core_info и объявление core_get_info |
+| core_info.c | функция core_get_info |
+| show_info.c | проверка функции |
+
